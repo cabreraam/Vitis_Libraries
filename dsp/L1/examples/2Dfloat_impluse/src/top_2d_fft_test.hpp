@@ -20,10 +20,14 @@
 #include <iostream>
 #endif
 
+#include "/tools/Xilinx/Vitis_HLS/2021.2/include/gmp.h"
+
 #include "vt_fft.hpp"
 #ifndef __SYNTHESIS__
 #include <iostream>
 #endif
+
+
 using namespace xf::dsp::fft;
 typedef float T_innerData;
 typedef complex_wrapper<T_innerData> T_elemType;
